@@ -1,0 +1,59 @@
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+}
+
+article .todo-container {
+    width: 80%;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    position: relative;
+}
+
+article .biginput {
+    width: 99%;
+    font-size: 40px;
+    border: none;
+    outline: none;
+}
+
+article .toggle-all {
+    position: relative;
+    width: 10%;
+    height: 40px;
+}
+
+article #todo-list .completed {
+    text-decoration: line-through;
+}
+
+article .clean-list li {
+    list-style: none;
+    text-align: left;
+}
+
+.hide {
+    display: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ccc;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #ccc;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #ccc;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ccc;
+}
